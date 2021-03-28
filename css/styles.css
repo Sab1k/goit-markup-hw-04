@@ -434,10 +434,11 @@ img {
 }
 
 .item-clients-link:hover,
-.item-clients-link:focus,
+.item-clients-link:focus {
+  border: 1px solid var(--accent-color);
+}
 .item-clients-link:hover .icons,
 .item-clients-link:focus .icons {
-  border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
 
